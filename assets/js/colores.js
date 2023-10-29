@@ -1,18 +1,18 @@
 function cambiarColorFondo(divId) {
-  ele = document.querySelector("#" + divId);
+  const ele = document.querySelector("#" + divId);
   ele.style.backgroundColor = "black";
 }
-ele = document.getElementById("div_1");
-ele.addEventListener("click", () => cambiarColorFondo("div_1"));
+let div1 = document.getElementById("div_1");
+div1.addEventListener("click", () => cambiarColorFondo("div_1"));
 
-ele = document.getElementById("div_2");
-ele.addEventListener("click", () => cambiarColorFondo("div_2"));
+let div2 = document.getElementById("div_2");
+div2.addEventListener("click", () => cambiarColorFondo("div_2"));
 
-ele = document.getElementById("div_3");
-ele.addEventListener("click", () => cambiarColorFondo("div_3"));
+let div3 = document.getElementById("div_3");
+div3.addEventListener("click", () => cambiarColorFondo("div_3"));
 
-ele = document.getElementById("div_4");
-ele.addEventListener("click", () => cambiarColorFondo("div_4"));
+let div4 = document.getElementById("div_4");
+div4.addEventListener("click", () => cambiarColorFondo("div_4"));
 
 /* const div_1 = document.querySelector("#div_1");
 div_1.addEventListener("click", () => {
