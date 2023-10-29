@@ -1,10 +1,12 @@
-pintar = function (color = "green") {
-  const ele = document.getElementById("ele1");
-  ele.style.backgroundColor = color;
-};
-pintar("green");
-
 const ele = document.getElementById("ele1");
+function pintar(color = "green") {
+  ele.style.backgroundColor = color;
+}
+
+pintar();
+
 ele.addEventListener("click", (color) => {
   ele.style.backgroundColor = "yellow";
 });
+
+
