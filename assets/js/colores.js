@@ -1,3 +1,5 @@
+// función reutilizable
+
 function cambiarColorFondo(divId) {
   const ele = document.querySelector("#" + divId);
   ele.style.backgroundColor = "black";
@@ -13,6 +15,8 @@ div3.addEventListener("click", () => cambiarColorFondo("div_3"));
 
 let div4 = document.getElementById("div_4");
 div4.addEventListener("click", () => cambiarColorFondo("div_4"));
+
+//función no reutilizable
 
 /* const div_1 = document.querySelector("#div_1");
 div_1.addEventListener("click", () => {
