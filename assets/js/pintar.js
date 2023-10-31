@@ -4,7 +4,7 @@ function pintar(color) {
 }
 pintar("green");
 
-bgColor = function (color) {
+const bgColor = function (color) {
   ele.style.backgroundColor = color;
 };
 
