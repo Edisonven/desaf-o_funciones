@@ -4,10 +4,10 @@ function pintar(color) {
 }
 pintar("green");
 
-const bgColor = function (color) {
+const ChangeBgColorOfAnElement = function (color) {
   ele.style.backgroundColor = color;
 };
 
 ele.addEventListener("click", () => {
-  bgColor("yellow");
+  ChangeBgColorOfAnElement("yellow");
 });
