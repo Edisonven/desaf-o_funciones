@@ -1,8 +1,7 @@
 // función reutilizable
 
 function ChangeBgColorOfAnElement(divId, color) {
-  const ele = document.querySelector("#" + divId, color);
-  ele.style.backgroundColor = color;
+  const ele = document.querySelector("#" + divId, color).style.backgroundColor = color;
 }
 let div1 = document.getElementById("div_1");
 div1.addEventListener("click", () => ChangeBgColorOfAnElement("div_1", "black"));

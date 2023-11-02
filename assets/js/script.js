@@ -6,8 +6,8 @@ function pintar(color) {
 pintar("green");
 
 ChangeBgColorOfAnElement = function (elementId, color) {
-  ele.style.backgroundColor = color;
+  ele = document.getElementById(elementId).style.backgroundColor = color;
 };
 
-const ele = document.getElementById("ele1");
-ele.addEventListener("click", () => ChangeBgColorOfAnElement("ele1", "yellow"));
+const div = document.getElementById("ele1");
+div.addEventListener("click", () => ChangeBgColorOfAnElement("ele1", "yellow"));
