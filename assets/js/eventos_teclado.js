@@ -1,5 +1,5 @@
 changeBgColor = function (color) {
-  let div = document.getElementById("key");
+  var div = document.getElementById("key");
   div.style.backgroundColor = color;
 };
 function addNewElement(color) {
