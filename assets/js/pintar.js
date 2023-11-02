@@ -6,7 +6,6 @@ function pintar(color) {
 pintar("green");
 
 ChangeBgColorOfAnElement = function (elementId, color) {
-  const ele = document.getElementById(elementId);
   ele.style.backgroundColor = color;
 };
 
