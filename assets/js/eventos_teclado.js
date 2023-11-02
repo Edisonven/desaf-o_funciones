@@ -12,8 +12,8 @@ function addNewElement(color) {
   container.appendChild(nuevoElemento);
 }
 function eraseNewElement() {
-  container = document.getElementById("container");
-  elementos = container.querySelectorAll("div");
+  let container = document.getElementById("container");
+  let elementos = container.querySelectorAll("div");
   if (elementos.length > 1) {
     container.removeChild(elementos[elementos.length - 1]);
   }
