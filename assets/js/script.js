@@ -10,6 +10,4 @@ ChangeBgColorOfAnElement = function (elementId, color) {
 };
 
 const ele = document.getElementById("ele1");
-ele.addEventListener("click", () => {
-  ChangeBgColorOfAnElement("ele1", "yellow");
-});
+ele.addEventListener("click", () => ChangeBgColorOfAnElement("ele1", "yellow"));
